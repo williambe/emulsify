@@ -22,16 +22,27 @@
             "email": "randy@fourkitchens.com"
         }
     ],
-    "repositories": {
-        "drupal": {
+    "repositories": [
+        {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
-        }
-    },
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "drupal-pattern-lab/bem-twig-extension",
+                "version": "master",
+                "dist": {
+                    "url": "http://github.com/williambe/bem-twig-extension/archive/implement-bem-mixes.zip",
+                    "type": "zip"
+                }
+          }
+       }
+    ],
     "require": {
         "drupal/components": "^1.0",
         "drupal-pattern-lab/add-attributes-twig-extension": "^1.0",
-        "drupal-pattern-lab/bem-twig-extension": "^1.0",
+        "drupal-pattern-lab/bem-twig-extension": "master",
         "drupal-pattern-lab/attach-library-twig-extension": "^1.0",
         "drupal-pattern-lab/unified-twig-extensions": "^0.1"
     },

@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "59880a6fb3be8b57330c8ce118fa01de",
+    "content-hash": "93dc5fa5a05f1d5d8fa760185b5cd7a4",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -822,35 +822,14 @@
         },
         {
             "name": "drupal-pattern-lab/bem-twig-extension",
-            "version": "v1.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/drupal-pattern-lab/bem-twig-extension.git",
-                "reference": "c772316bb6121823dcae157abfd1c173441e121d"
-            },
+            "version": "master",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal-pattern-lab/bem-twig-extension/zipball/c772316bb6121823dcae157abfd1c173441e121d",
-                "reference": "c772316bb6121823dcae157abfd1c173441e121d",
-                "shasum": ""
+                "url": "http://github.com/williambe/bem-twig-extension/archive/implement-bem-mixes.zip",
+                "reference": null,
+                "shasum": null
             },
-            "type": "library",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Evan Willhite",
-                    "email": "evan@fourkitchens.com"
-                },
-                {
-                    "name": "Jeff Tomlinson",
-                    "email": "jeff@fourkitchens.com"
-                }
-            ],
-            "description": "Twig function that inserts static classes into Pattern Lab and adds them to the Attributes object in Drupal",
-            "time": "2017-08-17T03:08:26+00:00"
+            "type": "library"
         },
         {
             "name": "drupal-pattern-lab/unified-twig-extensions",
